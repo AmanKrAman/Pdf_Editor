@@ -30,3 +30,6 @@ router.post("/fetchPdf", getPDFbyFileName);
 app.listen(PORT, () => {
   console.log(`Server is listening to port ${PORT}`);
 });
+
+//for vercel
+export default app;
