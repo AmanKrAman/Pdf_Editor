@@ -32,4 +32,4 @@ app.listen(PORT, () => {
 });
 
 //for vercel
-export default app;
+module.exports = app;
