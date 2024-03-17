@@ -154,7 +154,7 @@ const Pdf1Split = () => {
         {pdflist && (
           <div className="pdfList-div">
             <ul id="pdfList">
-              {pdflist.map((file) => (
+              {pdflist?.map((file) => (
                 <div key={file}>
                   {file}
                   <button onClick={() => handleDownload(file)}>Download</button>
@@ -165,7 +165,7 @@ const Pdf1Split = () => {
         )}
       </div>
       <div className="all-page-container">
-        {pdfPages.map((page) => (
+        {pdfPages?.map((page) => (
           <div
             key={page.pageNumber}
             className="check-container"

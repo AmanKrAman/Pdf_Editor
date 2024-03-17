@@ -1,5 +1,5 @@
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://pdf-editor-orat.vercel.app";
 
 export const uploadPdf = `${API_URL}/api/uploadPdf`;
 export const getAllPfd = `${API_URL}/api/getAllPdf`;
